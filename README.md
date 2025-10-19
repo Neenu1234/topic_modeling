@@ -33,6 +33,16 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
 
+## Dataset Setup
+
+The Amazon Fine Foods Reviews dataset is not included in this repository due to size limitations. You need to download it separately:
+
+1. Download the dataset from [Amazon Fine Foods Reviews](https://snap.stanford.edu/data/web-FineFoods.html)
+2. Place the `finefoods.txt.gz` file in the `data/` directory
+3. Extract the file: `gunzip data/finefoods.txt.gz`
+
+The dataset contains customer reviews of fine foods from Amazon and is approximately 353MB in size.
+
 ## Usage
 
 Run the main pipeline:
